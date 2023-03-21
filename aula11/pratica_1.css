@@ -1,0 +1,16 @@
+
+#nome:focus {
+    background-color: gray;
+}
+
+#link:visited {
+    color: purple;
+}
+
+#link:active {
+    color: red;
+}
+
+#submit:hover {
+    color: blue;
+}

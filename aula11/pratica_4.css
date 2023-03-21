@@ -1,0 +1,32 @@
+p::after {
+    content: " (fim do parágrafo)";
+  }
+  
+  p::before {
+    content: " (início do parágrafo)";
+  }
+  
+  p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  p::first-line {
+    font-weight: bold;
+  }
+  
+  ::selection {
+    background-color: yellow;
+    color: black;
+  }
+  
+  li::marker {
+    color: red;
+  }
+  
+  input::placeholder {
+    font-style: italic;
+    font-size: 14px;
+    color: gray;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pratica_3.css">
+    <title>Aula 11 - Pratica 3</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required minlength="8"><br><br>
+        <label for="senha-confirmacao">Confirme a senha:</label>
+        <input type="password" id="senha-confirmacao" name="senha-confirmacao" required minlength="8"><br><br>
+        <label for="genero">Gênero:</label><br><br>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label><br><br>
+        <input type="checkbox" id="aceita-termos" name="aceita-termos" required>
+        <label for="aceita-termos">Eu aceito os termos e condições</label><br><br>
+        <input type="submit" value="Enviar">
+      </form> 
+</body>
+</html>

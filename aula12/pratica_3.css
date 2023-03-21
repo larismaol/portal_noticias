@@ -1,0 +1,66 @@
+#caixa1 {
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    background-color: black;
+    border: 2px solid;
+
+}
+
+#caixa1:hover {
+    background-color: yellow;
+}
+
+#caixa2 {
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    border: 2px solid;
+    transition: height 2s; 
+}
+
+#caixa2:hover {
+    height: 200px;
+}
+#caixa3 {
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    border: 2px solid;
+    transition: height 2s, width 1s;
+
+}
+
+#caixa3:hover {
+    height: 200px; 
+    width: 200px;
+
+}
+#caixa4 {
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    border: 2px solid;
+    background-color: yellow;
+    transition: all 2s; 
+}
+
+#caixa4:hover {
+    height: 200px; 
+    width: 200px;
+    padding: 20px;
+    background-color: cyan;
+
+}
+#caixa5 {
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    border: 2px solid;
+    transition: all 2s;   
+}
+
+#caixa5:hover {
+    transform: rotate(30deg);
+
+}

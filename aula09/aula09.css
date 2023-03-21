@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.desafio1 {
+    color: orange;
+    background-color: green;
+}
+
+#lista1 {
+    color: #5c24d4;
+    background-color: beige;
+    list-style-type: circle;
+    font-weight: bold;
+}
+
+#lista2 {
+    color: #5c24d4;
+    background-color: bisque;
+    list-style-type: armenian;
+    font-style: italic;
+}

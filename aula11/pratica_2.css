@@ -1,0 +1,26 @@
+li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: red;
+}
+
+li:first-of-type {
+    font-weight: bold;
+}
+
+li:last-of-type {
+    font-style: italic;
+}
+
+li:nth-of-type(3) {
+    color: orange;
+}
+li:not(ul) {
+    background-color: antiquewhite;
+ }

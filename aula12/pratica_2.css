@@ -1,0 +1,60 @@
+#caixa1 {
+    width: 20%;
+    margin: 5px;
+    padding: 20px;
+    height: 20%;
+    border: 2px solid;
+    background-image: linear-gradient(to bottom, red , yellow);
+    
+}
+
+#caixa2 {
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    height: 20%;
+    border: 2px solid;
+    background-image: linear-gradient(to left, red , yellow);
+    transform: rotate(30deg);
+
+}
+
+#caixa3 {
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    height: 20%;
+    border: 2px solid;
+    background-image: linear-gradient(to right, red , yellow);
+    transform: rotateX(60deg);
+}
+
+#caixa4 {
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    height: 20%;
+    border: 2px solid;
+    background-image: linear-gradient(to top, red , yellow);
+    transform: rotateY(60deg)
+}
+
+#caixa5 {
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    height: 20%;
+    border: 2px solid;
+    background-image: linear-gradient(45deg, red , yellow);
+}
+
+#caixa6 {
+    width: 20%;
+    padding: 20px;
+    margin: 5px;
+    height: 20%;
+    border: 2px solid;
+    background-image: radial-gradient(red , yellow);
+    transform: rotateZ(60deg);
+
+}

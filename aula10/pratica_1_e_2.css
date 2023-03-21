@@ -1,0 +1,12 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+   }
+  

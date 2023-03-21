@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(168, 1, 1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-style: 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+header ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+    color: #000;   
+}
+
+a:hover {
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+main {
+    width: 100%; 
+    padding: 20px;
+    height: 50%
+}
+
+main h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;    
+}
+
+.cards{
+    margin: 0 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.card__titulo{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+
+}
+
+.card__imagem{
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+.card__paragrafo{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card__botao{
+    padding: 10px;
+    margin: 20px;
+    background-color:  rgb(168, 1, 1);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+
+}
+
+.card__botao:hover{
+    background-color: rgb(77, 13, 13);;
+
+}
+
+footer {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px
+}
+
+footer h1{
+    color:rgb(168, 1, 1);
+    width: 100;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
